@@ -13,7 +13,7 @@ const Assets = {
 	Cpp: asset('cpp.svg'),
 	Celery: asset('celery.svg'),
 	Django: asset('django.svg'),
-	FastApi: asset('fastapi'),
+	FastApi: asset('fastapi.svg'),
 	Flask: asset('flask.svg'),
 	Go: asset('go.svg'),
 	Kafka: asset('kafka.svg'),
@@ -69,7 +69,12 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+	SwiftUI: asset('swiftui.png'),
+	SwiftUIKit: asset('swiftuikit.png'),
+	Websocket: asset('websocket.png'),
+	IIUM: asset('iium.svg'),
+	Fikri: asset('fikri.JPG')
 };
 
 export default Assets;

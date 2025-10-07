@@ -36,6 +36,7 @@
 		<div
 			class="flex flex-col items-center justify-center gap-4 text-center md:items-start md:text-left"
 		>
+			<img src={HomeData.hero.profilePicture.light} alt="" class="w-[180px] h-[200px] rounded-md object-cover" />
 			<H1>{HomeData.hero.title}</H1>
 			<Muted>{HomeData.hero.description}</Muted>
 			<div class="flex flex-row gap-1">

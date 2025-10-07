@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
+		"dev": "svelte-kit sync && vite dev",
+		"build": "svelte-kit sync && vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -32,6 +32,7 @@
 		"lucide-svelte": "^0.460.1",
 		"marked-gfm-heading-id": "^4.1.1",
 		"marked-mangle": "^1.1.10",
+		"mdsvex": "^0.12.3",
 		"mode-watcher": "^0.4.1",
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.6",

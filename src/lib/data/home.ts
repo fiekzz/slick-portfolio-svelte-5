@@ -7,16 +7,21 @@ const title = 'Home';
 const hero: {
 	title: string;
 	description: string;
+	profilePicture: {
+		light: string;
+		dark: string;
+	};
 	links: Array<{ label: string; href: string; icon: `i-carbon-${string}` }>;
 } = {
-	title: `${BaseData.fullName},`,
+	title: `${BaseData.fullName}`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'A software engineer',
+	profilePicture: BaseData.profilePicture,
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'GitHub', href: 'https://github.com/fiekzz', icon: 'i-carbon-logo-github' },
+		{ label: 'LinkedIn', href: 'https://linkedin.com/in/fiekzz', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Twitter', href: 'https://twitter.com/fiekzzlala22', icon: 'i-carbon-logo-twitter' },
+		{ label: 'Email', href: 'mailto:fikrichuck@gmail.com', icon: 'i-carbon-at' }
 	]
 };
 

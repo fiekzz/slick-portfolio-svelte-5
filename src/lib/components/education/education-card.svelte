@@ -62,6 +62,15 @@
 					<TooltipContent side="bottom">Exact duration</TooltipContent>
 				</TooltipTrigger>
 			</Tooltip>
+			<Tooltip openDelay={300}>
+				<TooltipTrigger>
+					<Muted className="flex flex-row items-center gap-2">
+						<Icon icon="i-carbon-star" />
+						<div>{it.result}</div>
+					</Muted>
+					<TooltipContent side="bottom">Result</TooltipContent>
+				</TooltipTrigger>
+			</Tooltip>
 			<div class="py-2 text-sm text-muted-foreground">{ellipsify(it.shortDescription, 150)}</div>
 			<div class="flex flex-row flex-wrap gap-2">
 				{#each it.subjects as subject (subject)}

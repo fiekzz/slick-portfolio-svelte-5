@@ -62,7 +62,7 @@
 		</FancyBanner>
 		<Separator />
 		{#if data.item.description.trim()}
-			<Markdown content={data.item.description} />
+			<!-- <Markdown content={data.item.description} /> -->
 		{:else}
 			<EmptyMarkdown />
 		{/if}
